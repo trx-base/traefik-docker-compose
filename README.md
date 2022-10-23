@@ -9,7 +9,7 @@ Example docker container will be provided soon.
 
 ## Configuration
 
-The docker container must be assigned to following network so it is managed by traefik:
+The docker container must be assigned to following network, so it can be managed by traefik:
 
 ````yaml
 networks:
