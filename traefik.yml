@@ -27,7 +27,7 @@ providers:
 certificatesResolvers:
   letsencrypt:
     acme:
-      email: "acme@detwald.at"
+      email: "acme@example.com"
       storage: acme.json
       httpChallenge:
         entryPoint: http
