@@ -6,9 +6,9 @@ networks:
 
 services:
   traefik:
-    image: "traefik:v2.6"
+    image: "traefik:v2.9.8"
     container_name: traefik
-    restart: "always"
+    restart: "unless-stopped"
     ports:
       - "80:80"
       - "443:443"
