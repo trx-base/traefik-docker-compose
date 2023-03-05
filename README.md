@@ -6,6 +6,15 @@ Universal traefik controller for all docker-compose installations. Listens for i
 
 ## Configuration
 
+### Environment variables
+The Email address for the LetsEncyrpt certificate resolver must be set in `.env`. Copy from `.env.example` and set own email address!
+
+```
+TRAEFIK_CERTIFICATESRESOLVERS_LETSENCRYPT_ACME_EMAIL="acme@example.com"
+```
+
+### Docker Container
+
 The docker container must be assigned to following network, so it can be managed by traefik:
 
 ````yaml
